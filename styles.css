@@ -1,5 +1,33 @@
+@font-face {
+  font-family: "League Gothic";
+  src: url("styles/fonts/League_Gothic/static/LeagueGothic/LeagueGothic-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("styles/fonts/League_Spartan/static/LeagueSpartan-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url("styles/fonts/Lora/static/Lora-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url("styles/fonts/Lora/static/Lora-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 300 800;
+}
+
 * {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
 body {
@@ -12,65 +40,132 @@ header {
   margin: 0 auto;
   border: 2px solid pink;
 	text-align: center;
-}
-
-.uol {
-  background-color: aqua;
-  height: 35px;
-  margin-bottom: 10px;
-}
+} /*Centralizar o texto dos elementos*/
 
 .inner-middle {
   display: flex;
   border: 2px solid rgb(192, 196, 255);
-  width: 1600px;
+  width: 1300px;
   margin: 0 auto;
-}
+} /*Centralizar os elementos*/
 
-/*--------- Header center ---------*/
-.left-h {
+/*---------------- Header center ----------------*/
+.left-h, .right-h, .heading {
   padding: 5px;
   border: 2px solid royalblue;
-  width: 60px;
-  margin-right: auto;
+} /*Padding universal*/
+
+.left-h {
+  width: 200px;
+  margin: auto 323.475px 0 0;
+  display: flex;
 }
 
 .heading {
-  padding: 5px;
-  border: 2px solid royalblue;
-  width: 300px;
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "League Gothic", "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 .right-h {
-  padding: 5px;
-  border: 2px solid royalblue;
-  width: 60px;
-  margin-left: auto;
+  width: 230px;
+  margin: auto 0 0 auto;
+  display: flex;
 }
 
-/*----------- Slogan -----------*/
+/*Configurações em comum entre left-h e right-h*/
+.icon {
+  border: 2px solid salmon;
+} /*Borda ícones*/
+
+.header-text {
+  border: 2px solid pink;
+  margin:auto 8px auto 4px;
+} /*Centralizar texto menu/assinar/entrar/buscar*/
+
+.header-button {
+  display: inline-flex;
+  margin: auto;
+}
+
+/*-------------------- Slogan --------------------*/
 .slogan {
   display: inline-block;
   border: 2px solid yellowgreen;
   text-align: center;
+  margin: 5px auto 15px;
 }
 
-/*----------- Navbar -----------*/
-.navbar {
+/*-------------------- Navbar + red line --------------------*/
+.line {
+  border-top: 1px solid red;
+}
+
+nav {
   display: flex;
   border: 2px solid rgb(228, 102, 102);
   width: 800px;
   margin: 10px auto;
 }
 
-.navbar p {
+nav a {
   padding: 3px;
   width: 100px;
   margin: 5px auto;
   border: 2px solid rgb(39, 161, 39);
 }
 
-/*----------- Type Selectors -----------*/
+/*--------------- Barra "UOL" e propaganda ---------------*/
+.ads {
+  background-color: rgb(248, 248, 191);
+  color: black;
+  height: fit-content;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 3px;
+}
+
+.ops {
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+.corpo {
+  display: inline-flex;
+  border: 2px solid red;
+  height: 30px;
+}
+
+.text {
+  border: 1px solid pink;
+  margin: auto 2px;
+  height: fit-content;
+}
+
+/*------------------ Type Selectors ------------------*/
 h1 {
-  margin-top: 5px;
+  font-size: 4em;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, a {
+  font-family: Lora, "PT Sans", Calibri, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+/*------------------ Link ------------------*/
+header a:link, header a:visited {
+  color: rgb(0, 0, 0);
+}
+
+header a:hover {
+  color: rgb(11, 76, 114);
+}
+
+header a:active {
+  color: rgb(6, 42, 63);
 }
