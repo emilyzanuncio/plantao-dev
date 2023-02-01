@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "League Gothic";
+  src: url("fonts/League_Gothic/static/LeagueGothic/LeagueGothic-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("fonts/League_Spartan/static/LeagueSpartan-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url("fonts/Lora/static/Lora-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url("fonts/Lora/static/Lora-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 300 800;
+}
+
+/*--------------- Body ---------------*/
+.body {
+  border: 2px solid royalblue;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+/*------------------ ÁREAS ------------------*/
+.area-one, .area-two, .area-three {
+  display: flex;
+}
+
+.area-one {
+  border: 2px solid salmon;
+  margin-bottom: 20px;
+}
+
+.area-two {
+  border: 2px solid aqua;
+  margin-bottom: 40px;
+}
+
+.area-three {
+  border: 2px solid red;
+  margin-bottom: 40px;
+}
+
+/*------------------ Área 01 ------------------*/
+.title-c {
+  border: 2px solid rebeccapurple;
+  width: 940px;
+}
+
+.fst-title {
+  font-family: "League Spartan", "PT Sans", Tahoma, sans-serif;
+  font-size: 3em;
+  margin: 0 0 20px;
+}
+
+.fst-text {
+  color: rgb(143, 143, 143);
+}
+
+.side-ad {
+  border: 2px solid aqua;
+  margin: 0 0 auto auto;
+  width: 300px;
+}
+
+/*------------------ Área 02 ------------------*/
+.img-area {
+  display: inline-block;
+  border: 2px solid pink;
+  margin: auto 15px auto 0;
+}
+
+.main-img {
+  width: 630px;
+  height: auto;
+}
+
+.lateral-02 {
+  display: inline-block;
+  border: 2px solid pink;
+  margin: 0 auto auto 15px;
+  width: 280px; /*MUDAR PARA 291*/
+}
+
+.side-news {
+  border: 2px solid rgb(0, 255, 21);
+  display: inline-block;
+  width: 300px;
+}
+
+.img-s {
+  width: 300px;
+  height: auto;
+}
+
+/*------------------ Conteúdo ------------------*/
+
+
+
+/*------------------ Conteúdo ------------------*/
+
+/*------------------ Images ------------------*/
+
+
+
+
+/*------------------ Images ------------------*/
+.body h3, .body h5, .body p {
+  margin: 0;
+}
+
+#space {
+  margin-bottom: 20px;
+}
