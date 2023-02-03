@@ -46,6 +46,7 @@
 .area-two {
   border: 2px solid aqua;
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .area-three {
@@ -80,6 +81,8 @@
   display: inline-block;
   border: 2px solid pink;
   margin: auto 15px auto 0;
+  height: 480px;
+  width: 630px;
 }
 
 .main-img {
@@ -88,10 +91,15 @@
 }
 
 .lateral-02 {
-  display: inline-block;
+  display: block;
   border: 2px solid pink;
   margin: 0 auto auto 15px;
   width: 280px; /*MUDAR PARA 291*/
+  height: 480px;
+}
+
+.lateral-02 .one, .lateral-02 .two {
+  margin-bottom: 20px;
 }
 
 .side-news {
@@ -105,13 +113,50 @@
   height: auto;
 }
 
-/*------------------ Conteúdo ------------------*/
+.A2-space {
+  padding-bottom: 20px;
+}
+
+/*------------------ Área 03 ------------------*/
+.news-block {
+  width: 321px;
+  border: 2px solid rebeccapurple;
+  padding-right: 15px;
+}
+
+.A32, .A33 {
+  padding-left: 15px;
+}
+
+.img-n {
+  width: 291px;
+  height: auto;
+}
+
+.news {
+  border: 2px solid royalblue;
+  margin-bottom: 35px;
+}
+
+.live-two {
+  margin-bottom: 0px;
+} /* Deletar .live-two e trocar .news por .live-one ou .news .live-one*/
+
+/*------------------ Notícias ------------------*/
+.subj-area {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 
+/*------------------ Links ------------------*/
+.body a:link, .body a:visited {
+  color: rgb(0, 0, 0);
+}
 
-/*------------------ Conteúdo ------------------*/
-
-/*------------------ Images ------------------*/
+.body a:hover, .body a:active {
+  color: rgb(11, 76, 114);
+}
 
 
 
@@ -119,8 +164,4 @@
 /*------------------ Images ------------------*/
 .body h3, .body h5, .body p {
   margin: 0;
-}
-
-#space {
-  margin-bottom: 20px;
 }
