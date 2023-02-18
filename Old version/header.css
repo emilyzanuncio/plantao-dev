@@ -13,15 +13,15 @@
 }
 
 @font-face {
-  font-family: Lora;
-  src: url("fonts/Lora/static/Lora-Regular.woff2") format("woff2");
+  font-family: Montserrat;
+  src: url("fonts/Montserrat/static/Montserrat-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 300 800;
 }
 
 @font-face {
-  font-family: Lora;
-  src: url("fonts/Lora/static/Lora-Italic.woff2") format("woff2");
+  font-family: Montserrat;
+  src: url("fonts/Montserrat/static/Montserrat-Italic.woff2") format("woff2");
   font-style: italic;
   font-weight: 300 800;
 }
@@ -33,7 +33,6 @@
 body {
   margin: 0;
   line-height: 1;
-  /* --------------------- ADD FONT FAMILY ---------------------*/
 }
 
 header {
@@ -154,18 +153,24 @@ h1 {
   font-size: 4em;
 }
 
+h3 {
+  font-family: "League Spartan", "PT Sans", Tahoma, sans-serif;
+  font-size: 1.3em;
+  margin: 0 0 20px;
+}
+
 a {
   text-decoration: none;
 }
 
 p, a {
-  font-family: Lora, "PT Sans", Calibri, Tahoma, sans-serif;
-  font-weight: 600;
+  font-family: Montserrat, "PT Sans", Calibri, Tahoma, sans-serif;
+  font-weight: 300;
 }
 
 /*------------------ Link ------------------*/
 header a:link, header a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(51,51,51);
 }
 
 header a:hover {

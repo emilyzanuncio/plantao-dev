@@ -1,26 +1,36 @@
-Lora Variable Font
-==================
+Montserrat Variable Font
+========================
 
-This download contains Lora as both variable fonts and static fonts.
+This download contains Montserrat as both variable fonts and static fonts.
 
-Lora is a variable font with this axis:
+Montserrat is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  Lora-VariableFont_wght.ttf
-  Lora-Italic-VariableFont_wght.ttf
+  Montserrat-VariableFont_wght.ttf
+  Montserrat-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Lora:
-  static/Lora-Regular.ttf
-  static/Lora-Medium.ttf
-  static/Lora-SemiBold.ttf
-  static/Lora-Bold.ttf
-  static/Lora-Italic.ttf
-  static/Lora-MediumItalic.ttf
-  static/Lora-SemiBoldItalic.ttf
-  static/Lora-BoldItalic.ttf
+in those cases you can use the static font files for Montserrat:
+  static/Montserrat-Thin.ttf
+  static/Montserrat-ExtraLight.ttf
+  static/Montserrat-Light.ttf
+  static/Montserrat-Regular.ttf
+  static/Montserrat-Medium.ttf
+  static/Montserrat-SemiBold.ttf
+  static/Montserrat-Bold.ttf
+  static/Montserrat-ExtraBold.ttf
+  static/Montserrat-Black.ttf
+  static/Montserrat-ThinItalic.ttf
+  static/Montserrat-ExtraLightItalic.ttf
+  static/Montserrat-LightItalic.ttf
+  static/Montserrat-Italic.ttf
+  static/Montserrat-MediumItalic.ttf
+  static/Montserrat-SemiBoldItalic.ttf
+  static/Montserrat-BoldItalic.ttf
+  static/Montserrat-ExtraBoldItalic.ttf
+  static/Montserrat-BlackItalic.ttf
 
 Get started
 -----------

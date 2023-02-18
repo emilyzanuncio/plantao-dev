@@ -13,15 +13,15 @@
 }
 
 @font-face {
-  font-family: Lora;
-  src: url("fonts/Lora/static/Lora-Regular.woff2") format("woff2");
+  font-family: Montserrat;
+  src: url("fonts/Montserrat/static/Montserrat-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 300 800;
 }
 
 @font-face {
-  font-family: Lora;
-  src: url("fonts/Lora/static/Lora-Italic.woff2") format("woff2");
+  font-family: Montserrat;
+  src: url("fonts/Montserrat/static/Montserrat-Italic.woff2") format("woff2");
   font-style: italic;
   font-weight: 300 800;
 }
@@ -30,7 +30,8 @@
 .body {
   border: 2px solid royalblue;
   width: 1300px;
-  margin: 0 auto;
+  margin: 50px auto 0;
+  color: rgb(51,51,51);
 }
 
 /*------------------ ÁREAS ------------------*/
@@ -81,13 +82,17 @@
   display: inline-block;
   border: 2px solid pink;
   margin: auto 15px auto 0;
-  height: 480px;
+  height: fit-content;
   width: 630px;
 }
 
 .main-img {
   width: 630px;
   height: auto;
+}
+
+.img-area h3 {
+  padding: 15px 0 10px;
 }
 
 .lateral-02 {
@@ -124,6 +129,10 @@
   padding-right: 15px;
 }
 
+.A31 {
+  width: 306px;
+}
+
 .A32, .A33 {
   padding-left: 15px;
 }
@@ -146,22 +155,31 @@
 .subj-area {
   padding-top: 10px;
   padding-bottom: 10px;
+  color: rgb(64, 64, 64);
 }
-
 
 /*------------------ Links ------------------*/
 .body a:link, .body a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(51,51,51);
 }
 
 .body a:hover, .body a:active {
   color: rgb(11, 76, 114);
 }
 
-
-
-
 /*------------------ Images ------------------*/
 .body h3, .body h5, .body p {
   margin: 0;
+}
+
+/*------------------ Images ------------------*/
+footer {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  height: 300px;
+  display: flex;
+}
+
+.footer-info {
+  margin: auto;
 }

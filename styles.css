@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "League Gothic";
+  src: url("styles/fonts/League_Gothic/static/LeagueGothic/LeagueGothic-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("styles/fonts/League_Spartan/static/LeagueSpartan-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("styles/fonts/Montserrat/static/Montserrat-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("styles/fonts/Montserrat/static/Montserrat-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 300 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+/*------------------- COMPANY AD -------------------*/
+.ad, .company-logo {
+  background-color: rgb(38, 38, 38);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.company-logo {
+  font-family: "League Spartan", "PT SANS", Tahoma, sans-serif;
+  font-size: 1.5em;
+}
+/*------------------- HEADER -------------------*/
+
+/*------------------- BODY -------------------*/
+
+/*------------------- FOOTER -------------------*/
+
+/*------------------- GENERAL STYLES -------------------*/
+a {
+  text-decoration: none;
+}
