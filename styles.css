@@ -1,6 +1,6 @@
 @font-face {
   font-family: "League Gothic";
-  src: url("styles/fonts/League_Gothic/static/LeagueGothic/LeagueGothic-Regular.woff2") format("woff2");
+  src: url("styles/fonts/League_Gothic/static/LeagueGothic-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 300 800;
 }
@@ -26,6 +26,10 @@
   font-weight: 300 800;
 }
 
+body {
+  font-family: Montserrat, "PT Sans", Tahoma, sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -36,11 +40,14 @@
 /*------------------- COMPANY AD -------------------*/
 .ad, .company-logo {
   background-color: rgb(38, 38, 38);
-  color: white;
+  color: white !important;
+  height: 40px;
+}
+
+.company-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
 }
 
 .company-logo {
@@ -48,6 +55,60 @@
   font-size: 1.5em;
 }
 /*------------------- HEADER -------------------*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 40px 30px 40px;
+}
+
+.h-button, .header-button, .slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-button {
+  gap: 8px;
+}
+
+/*------------------- HEADING + SLOGAN -------------------*/
+.heading {
+  font-family: "League Gothic", "PT Sans", Tahoma, sans-serif;
+  font-size: 4em;
+}
+.slogan {
+  padding-top: 10px;
+}
+
+/*------------------- MAIN NAVBAR -------------------*/
+.line {
+  border-top: 1px solid red;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+/*------------------- SECOND AD -------------------*/
+.second.ad {
+  background-color: rgb(4, 54, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+}
 
 /*------------------- BODY -------------------*/
 
@@ -56,4 +117,16 @@
 /*------------------- GENERAL STYLES -------------------*/
 a {
   text-decoration: none;
+}
+
+a:link, a:visited {
+  color: rgb(51,51,51);
+}
+
+ a:hover {
+  color: rgb(11, 76, 114);
+}
+
+a:active {
+  color: rgb(6, 42, 63);
 }
