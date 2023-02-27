@@ -13,6 +13,19 @@
 }
 
 @font-face {
+  font-family: "Abril Fatface";
+  src: url("styles/fonts/Abril_Fatface/AbrilFatface-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("styles/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 900;
+}
+
+@font-face {
   font-family: Montserrat;
   src: url("styles/fonts/Montserrat/static/Montserrat-Regular.woff2") format("woff2");
   font-style: normal;
@@ -46,11 +59,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .company-logo {
-  font-family: "League Spartan", "PT SANS", Tahoma, sans-serif;
+  font-family: "Playfair Display", "PT SANS", Tahoma, sans-serif;
   font-size: 1.5em;
+  font-weight: 900;
 }
 /*------------------- HEADER -------------------*/
 .header {
@@ -140,7 +155,11 @@ nav {
 }
 
 /*------------ MAIN HEADLINE ------------*/
-.main-headline-head {
+.main-headline {
+  margin-bottom: 25px;
+}
+
+.headline-head {
   color: rgb(124, 124, 124);
   font-size: 20px;
   display: flex;
@@ -162,18 +181,28 @@ nav {
   width: 960px;
 }
 
-.r1.headline {
-  margin-bottom: 15px;
-  font-family: "League Spartan", "PT Sans", Tahoma, sans-serif;
+.hmp-r1.headline {
+  line-height: 1.15;
+  margin-bottom: 25px;
+  font-family: "Playfair Display", "PT Sans", Tahoma, sans-serif;
 }
 
+/*------------ R1 RELATED ------------*/
+.related {
+  display: flex;
+}
+
+.related .icon {
+  color: rgb(11, 76, 114);
+  font-size: 135%;
+}
 
 /*------------------- FOOTER -------------------*/
 
 /*------------------- GENERAL STYLES -------------------*/
 /*------------ TYPE SELECTORS ------------*/
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 h5 {
@@ -188,10 +217,10 @@ a:link, a:visited {
   color: rgb(51,51,51);
 }
 
-a:hover, .subhead:hover {
+a:hover, .headline-subhead:hover * {
   color: rgb(11, 76, 114);
 }
 
-a:active, .subhead:active {
+a:active, .headline-subhead:active * {
   color: rgb(6, 42, 63);
 }
